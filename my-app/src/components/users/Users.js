@@ -14,8 +14,8 @@ function Users(props) {
                 </tr>
                 </thead>
                 {
-                    props.users.map((user, i) =>
-                        <tbody key={i} >
+                    props.users.map((user, key) =>
+                        <tbody key={key} >
                         <tr>
                             <th>{user.id}</th>
                             <td>{user.name}</td>
