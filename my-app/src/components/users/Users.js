@@ -4,7 +4,7 @@ import classes from "./users.module.css";
 function Users(props) {
     return (
         <div >
-            <table border={1}>
+            <table border={5}>
                 <thead>
                 <tr>
                     <th>№</th>

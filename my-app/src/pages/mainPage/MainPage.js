@@ -14,7 +14,7 @@ function MainPage() {
     }, []);
     return (
         <>
-            <h1 className={classes.h1}>Main  Page</h1><hr />
+            <h1>Main Page</h1><hr />
             <Users users={users}/>
         </>
     )
